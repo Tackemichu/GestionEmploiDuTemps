@@ -1,0 +1,21 @@
+.dropdown {
+  display: flex;
+  align-items: center;
+  /* border: 1px solid #ffff; */
+  margin: 2rem;
+  padding: 0.5rem;
+  margin-top: 15rem;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 5px;
+  padding-left: 1.5rem;
+  background: #3e3e3f!important;
+  color:#fff ;
+  transition: 0.5s;
+}
+
+.dropdown:hover {
+  color: #fff;
+  background: #3e3e3f7e!important;
+}

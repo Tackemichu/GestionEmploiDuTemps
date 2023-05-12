@@ -1,0 +1,182 @@
+* {
+	list-style: none;
+	text-decoration: none !important;
+}
+
+.bg-nav {
+	box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+	background: #fff;
+	z-index: 1000;
+}
+
+.navbar .navbar-brand {
+	color: #3b3949;
+	font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #666;
+	font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link:hover .dropdown-item {
+	color: #fff;
+	background: #666;
+	border-radius: 5px;
+}
+
+.sidebar-text {
+	color: #666;
+	font-weight: bold;
+}
+
+.container {
+	margin-left: 14.5rem !important;
+	margin-right: 0;
+	padding-top: 1rem;
+	padding-right: 2rem;
+	background-color: #fff !important;
+	border-radius: 5px;
+	box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+}
+
+.red-icon {
+	color: red;
+	cursor: pointer;
+}
+
+.navbar {
+	position: fixed !important;
+	top: 0 !important;
+	width: 100vw;
+}
+
+.header {
+	color: #b4b1b1;
+}
+
+.main-sidebar {
+	color: #fff;
+	background: #666;
+	position: fixed !important;
+}
+
+.main-sidebar li a {
+	color: #fff;
+}
+
+.main-sidebar li a:hover {
+	color: #0d6efd;
+	background: #fff;
+	width: 220px;
+	border-radius: 5%;
+}
+
+.input-group {
+	margin-left: 16rem;
+	padding-left: 40rem !important;
+	top: 8.8rem;
+	padding-right: 18rem!important;
+}
+
+.recherche{
+	padding-left: 30rem!important;
+	top: 11.8rem!important;
+}
+
+.warning {
+	height: 5vh;
+	background: #f0dddd;
+	text-align: center !important;
+	padding-top: 0.3rem;
+}
+
+.success {
+	background: #9be5df;
+	color: #3b5b5ed7 !important;
+	padding: 10px;
+	width: 95%;
+	border-radius: 5px;
+	margin: 20px auto;
+}
+
+.error {
+	background: #F2DEDE;
+	color: #A94442;
+	padding: 10px;
+	width: 95%;
+	border-radius: 5px;
+	margin: 10px auto;
+}
+
+.icon {
+	-webkit-transition: all .3s linear;
+	-o-transition: all .3s linear;
+	transition: all .3s linear;
+	position: absolute;
+	top: -10px;
+	right: 10px;
+	z-index: 0;
+	font-size: 90px;
+	color: rgba(26, 11, 80, 0.26);
+}
+
+.icon:hover {
+	font-size: 95px;
+}
+
+.emplo {
+	text-align: center !important;
+}
+
+.formul_emploi{
+	display: flex;
+	margin: 7rem 5rem 0 30rem ;
+	background: #fff!important;
+	align-items: center;
+	justify-content: center;
+	width: 550px;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	border-radius: 5px;
+	box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+}
+
+.modal-content{
+	width: 410px!important;
+	border-radius: 5%;
+	background: #666!important;
+	color: #fff!important;
+	text-align: center;
+}
+
+body{
+	background: #4e4949;
+}
+.time{
+	/* background: #000; */
+	width: 250px!important;
+	height: 40px;
+	margin-left: 53rem;
+	margin-bottom: -3rem!important;
+}
+.libre{
+	margin-left: 40rem!important;
+	padding-bottom: 5rem;
+	display: inline-flex;
+	flex-direction: row;
+	width: 100wh;
+	position: relative;
+	top: -10rem;
+	/* margin-top: -5rem!important; */
+}
+.sal{
+	
+	display: flex;
+	flex-direction: row;
+	top: -10rem;
+}
+
+.but{
+	height: 25vh;
+}
